@@ -1,0 +1,30 @@
+<html>
+     <head>
+         <title> Página 1 </title>
+     </head>
+
+     <body bgcolor='#F0F8FF'>
+          <font color = 'red' size='5'>Formula 1<br> <br>
+          </font>
+          <font color = 'black' size='3'>Lewis Hamilton, piloto britanico da Mercedes, ira para a Ferrari em 2025! <br>
+          </font> <br>
+                <font color = '#00FFFF' size='6'> C
+                </font>
+                <font color = '#00CED1' size='5'> O
+                </font> 
+                <font color = '#40E0D0' size='3'> N
+                </font>
+                <font color = '#48D1CC' size='2'> F
+                </font>
+                <font color = '#20B2AA' size='2'> I
+                </font>
+                <font color = '#008B8B' size='3'> R
+                </font>
+                <font color = '#008080' size='4'> A
+                </font>
+                <font color = '#2F4F4F' size='3'> :
+                </font>
+                <br>
+                <img src="foto1.jpg" width='40%'>
+     </body>
+</html>

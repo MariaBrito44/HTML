@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <font color="red" size="7">
+            Tabelas - parte 2
+        </font>
+        <br> <br>
+        <table border="1" width="600">
+            <tr bgcolor="#FFF0F5" align="center">
+                <td width="350" align="center"><B>NOME</B></td>
+                <td width="80" align="center"><B>IDADE</B></td>
+                <td width=" " align="center"><B>FOTO</B></td>
+            </tr>
+            <tr>
+                <td>Susie Wolf</td>
+                <td>41</td>
+                <td><img src="../img/mulheres/mulher1.jpg" width='100%'></td>
+            </tr>
+            <tr>
+                <td>Mariana Becker</td>
+                <td>52</td>
+                <td><img src="../img/mulheres/mulher2.jpg" width='100%'></td>
+            </tr>
+            <tr>
+                <td>Bianca Bustamante</td>
+                <td>19</td>
+                <td><img src="../img/mulheres/mulher3.png" width='100%'></td>
+            </tr>
+            <tr>
+                <td>Lewis Hamilton</td>
+                <td>39</td>
+                <td><img src="../img/homens/homem1.jpg" width='100%'></td>
+            </tr>
+            <tr>
+                <td>George Russell</td>
+                <td>26</td>
+                <td><img src="../img/homens/homem2.jpg" width='100%'></td>
+            </tr>
+            <tr>
+                <td>Toto Wolf</td>
+                <td>52</td>
+                <td><img src="../img/homens/homem3.jpg" width='100%'></td>
+            </tr>
+    </center>
+    </table>
+</body>
+
+</html>

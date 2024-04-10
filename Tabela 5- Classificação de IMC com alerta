@@ -87,7 +87,7 @@
                 document.write("</td>")
                 document.write("<td>") 
                 document.write($imc)
-                document.write("<td><img src='../img/lampadalaranja.jpg'  width='50%'></td> ")
+                document.write("<td><img src='../img/lampadaamarela.jpg'  width='50%'></td> ")
                 document.write(" </tr>")
                 document.write("</table>")
 

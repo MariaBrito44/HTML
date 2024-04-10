@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASSIFICAÇÃO</title>
+
+    <script>
+        document.write("<h1>CLASSIFICAÇÃO DE IDADE E GÊNERO </h1>")
+        $idade = prompt("Qual é a sua idade?")
+        $genero = prompt("Qual é o seu gênero? [FEMININO/MASCULINO]")
+
+        if ($idade < 18) {
+            if ($genero == "masculino") {
+                document.write("menino")
+            }
+
+            if ($genero == "feminino") {
+                document.write("menina")
+            }
+        }
+
+        else {
+            if ($genero == "masculino") {
+                document.write("homem")
+            }
+
+            if ($genero == "feminino") {
+                document.write("mulher")
+            }
+        }
+
+    </script>
+
+
+</head>
+
+<body>
+    <center>
+
+        <font color="red" size="7">
+            Tabela
+        </font>
+        <br> <br>
+        <table border="1" width="600">
+            <tr bgcolor="#FFF0F5" align="center">
+                <td width="350" align="center"><B>NOME</B></td>
+                <td width="80" align="center"><B>IDADE</B></td>
+                <td width=" " align="center"><B>FOTO</B></td>
+            </tr>
+            <tr>
+                <td>Susie Wolf</td>
+                <td>41</td>
+                <td><img src="../IMG/mulher1.jpg" width='100%'></td>
+            </tr>
+            <tr>
+                <td>Mariana Becker</td>
+                <td>52</td>
+                <td><img src="../IMG/mulher2.jpg" width='100%'></td>
+            </tr>
+            <tr>
+                <td>Bianca Bustamante</td>
+                <td>19</td>
+                <td><img src="../IMG/mulher3.jpg" width='100%'></td>
+            </tr>
+            <tr>
+                <td>Lewis Hamilton</td>
+                <td>39</td>
+                <td><img src="../IMG/homem1.jpg" width='100%'></td>
+            </tr>
+            <tr>
+                <td>George Russell</td>
+                <td>26</td>
+                <td><img src="../IMG/homem2.jpg" width='100%'></td>
+            </tr>
+            <tr>
+                <td>Toto Wolf</td>
+                <td>52</td>
+                <td><img src="../IMG/homem3.jpg" width='100%'></td>
+            </tr>
+            </a>
+    </center>
+    </table>
+</body>
+
+</html>

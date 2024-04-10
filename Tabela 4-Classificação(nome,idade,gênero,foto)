@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        $nome = prompt("Qual é o seu nome ?")
+        $sexo = prompt("Qual é o seu sexo? [M] ou [F]")
+        //document.writeln("Sexo = " + $sexo)
+        document.write("<br>")
+        
+        $idade = prompt("Digite sua idade: ")
+        if($idade < 18)
+        {
+           // document.write("Idade = Menor de idade")
+        }
+        else
+        {
+            //document.write("Idade = Maior de idade:")
+        }
+
+        document.write("<br>")
+        document.write("<br>")
+
+        if($sexo == "M")
+        {
+            if($idade < 18){
+                //alert("menino")
+               // document.write("Sexo = menino")
+                document.write(" <center> <font color='red' size='7'> Tabela Menino </font>")
+                document.write("<table border='1' width='780'>")
+                document.write("<tr bgcolor='#FFF0F5' align='center'>")
+                document.write(" <td width='350' align='center'><B>NOME</B></td>")
+                document.write(" <td width='80' align='center'><B>IDADE</B></td>")
+                document.write(" <td width=''  align='center'><B>FOTO</B></td>")
+                document.write(" </tr>")
+                document.write(" <tr>")
+                document.write("<td>")
+                document.write($nome)
+                document.write("</td>")
+                document.write("<td>")
+                document.write($idade)
+                document.write("<td>")
+                document.write("<td><img src='../img/menino1.jpg'  width='50%'></td> ")
+                document.write("</table>")
+
+            }
+            else
+            {
+                //alert("homem")
+               // document.write("Sexo = homem")
+                document.write(" <center> <font color='red' size='7'> Tabela Homem </font>")
+                document.write("<table border='1' width='780'>")
+                document.write("<tr bgcolor='#FFF0F5' align='center'>")
+                document.write(" <td width='350' align='center'><B>NOME</B></td>")
+                document.write(" <td width='80' align='center'><B>IDADE</B></td>")
+                document.write(" <td width='350'  align='center'><B>FOTO</B></td>")
+                document.write(" </tr>")
+                document.write(" <tr>")
+                document.write("<td>")
+                document.write($nome)
+                document.write("</td>")
+                document.write("<td>")
+                document.write($idade)
+                document.write("</td>")
+                document.write("<td><img src='../img/homem1.jpg'  width='100%'></td> ")
+                document.write("</table>")
+
+            }
+        }
+        else
+        {
+        
+        }
+        document.write("<br>")
+        document.write("<br>")
+
+        if($sexo == "F")
+        {
+            if($idade < 18){
+                //alert("menina")
+                //document.write("Sexo = menina")
+                document.write(" <center> <font color='red' size='7'> Tabela Menina </font>")
+                document.write("<table border='1' width='780'>")
+                document.write("<tr bgcolor='#FFF0F5' align='center'>")
+                document.write(" <td width='350' align='center'><B>NOME</B></td>")
+                document.write(" <td width='80' align='center'><B>IDADE</B></td>")
+                document.write(" <td width='350'  align='center'><B>FOTO</B></td>")
+                document.write(" </tr>")
+                document.write(" <tr>")
+                document.write("<td>")
+                document.write($nome)
+                document.write("</td>")
+                document.write("<td>")
+                document.write($idade)
+                document.write("</td>")
+                document.write("<td><img src='../img/menina1.jpg'  width='100%'></td> ")
+                document.write("</table>")
+            }
+            else
+            {
+                //alert("mulher")
+               // document.write("Sexo = mulher")
+                document.write(" <center> <font color='red' size='7'> Tabela Mulher</font>")
+                document.write("<table border='1' width='780'>")
+                document.write("<tr bgcolor='#FFF0F5' align='center'>")
+                document.write(" <td width='350' align='center'><B>NOME</B></td>")
+                document.write(" <td width='80' align='center'><B>IDADE</B></td>")
+                document.write(" <td width='350'  align='center'><B>FOTO</B></td>")
+                document.write(" </tr>")
+                document.write(" <tr>")
+                document.write("<td>")
+                document.write($nome)
+                document.write("</td>")
+                document.write("<td>")
+                document.write($idade)
+                document.write("</td>")
+                document.write("<td><img src='../img/mulher1.jpg'  width='100%'></td> ")
+                document.write("</table>")
+            }
+        }
+        else
+        {
+        
+        }
+        
+
+
+
+    </script>
+</head>
+<body>
+   
+
+</body>
+</html>

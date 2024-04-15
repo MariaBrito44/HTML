@@ -27,7 +27,6 @@
         {
             $resultado = ' IDOSO'
         }
-                document.write("<color=''>")
                 document.write(" <center> <font color='red' size='7'> Tabelas de classificação </font>")
                 document.write("<table border='1' width='600' bgcolor='#FFE4E1'>")
                 document.write("<tr bgcolor='#FFF0F5' align='center'>")

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        $estações = prompt("Digite um número de 1 à 4 para achar o presente: ")
+        switch($estações)
+        {
+            case "2":
+                document.write("PARABÉNS, VOCÊ ENCONTROU O PRESENTE!")
+                document.write("<br>")
+                document.write("<img src='/img/presente1.jpg' width='60%'>")
+                break;
+            case "1":
+                document.write("QUE PENA, VOCÊ NÃO ENCONTROU. TENTE NOVAMENTE...")
+                document.write("<br>")
+                document.write("<img src='/img/perdeu1.jpg' width='60%'>")
+                break;
+            case "3":
+                document.write("QUE PENA, VOCÊ NÃO ENCONTROU. TENTE NOVAMENTE...")
+                document.write("<br>")
+                document.write("<img src='/img/perdeu2.jpg' width='60%'>")
+                break;  
+            case "4":
+                document.write("PARABÉNS, VOCÊ ENCONTROU O PRESENTE!")
+                document.write("<br>")
+                document.write("<img src='/img/presente2.jpg' width='60%'>")
+                break;
+            default:
+                document.write("Opção Inválida!") 
+                break;   
+
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

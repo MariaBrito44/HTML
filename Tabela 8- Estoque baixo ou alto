@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        $quantidade = prompt("Quantas peças possui no estoque?")
+        $resultado = $quantidade
+
+        if ($quantidade < 50) {
+            $resultado = ' BAIXO'
+        }
+        else
+
+            if ($quantidade < 100) {
+                $resultado = ' NORMAL'
+            }
+            else {
+                $resultado = ' ALTO'
+            }
+        document.write(" <center> <font color='red' size='7'> Classificação de estoque </font>")
+        document.write("<table border='1' width='600' bgcolor='#EED5D2'>")
+        document.write("<tr bgcolor='#FFF0F5' align='center'>")
+        document.write(" <td width='90' align='center'><B>QUANTIDADE</B></td>")
+        document.write(" <td width='80' align='center'><B>RESULTADO</B></td>")
+        document.write(" </tr>")
+        document.write(" <tr>")
+        document.write("<td>")
+        document.write($quantidade)
+        document.write("</td>")
+        document.write("<td>")
+        document.write($resultado)
+        document.write("</td>")
+        document.write(" </tr>")
+        document.write("</table>")
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

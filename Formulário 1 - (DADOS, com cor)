@@ -15,7 +15,7 @@
        function validar()
        {
         document.write("COCLUÍDO!")
-        returnfalse
+        return false;
        }
    </script>
 </head>

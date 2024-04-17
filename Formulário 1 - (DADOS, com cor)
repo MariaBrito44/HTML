@@ -19,11 +19,9 @@
         NOME: <input type="text" name="fNome"> <br>
         IDADE: <input type="text" name="fIdade"> <br>
         SEXO:
-        <select name="fSexo">
-            <option value="emBranco">Escolha uma opção abaixo:  </option>
-            <option value="masc">Masculino</option>
-            <option value="fem">Feminino</option>
-            </select><br>
+        Masculino <input type="radio" name="fSexo" value="masc">
+        Feminino <input type="radio" name="fSexo" value="fem">
+        <br>
         CIDADE: <input type="text" name="fCidade"
                                    size="20" maxlength="20"> <br> 
 

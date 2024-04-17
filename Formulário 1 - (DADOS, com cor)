@@ -19,11 +19,19 @@
             $cidade = this.form1.fCidade.value;
             $estado = this.form1.fEstado.value;
             $sexo = this.form1.fSexo.value;
-            document.write($nome + " concluído! Você tem " + $idade , " anos.") 
-            document.write("<br>")
-            document.write("Mora em " + $cidade + ", localizado no Estado de " + $estado + " e seu gênero é " + $sexo)
-            return false;
+
+            $qtdCaracteres_nome = $nome.length;
+
+            if($qtdCaracteres_nome < 1)
+            {
+               alert("Por favor, digite seu nome.") 
+            }
+           document.write($nome + " concluído! Você tem " + $idade , " anos.") 
+           document.write("<br>")
+           document.write("Mora em " + $cidade + ", localizado no Estado de " + $estado + " e seu gênero é " + $sexo + ".")
+        return false;
        }    
+
    </script>
 </head>
 

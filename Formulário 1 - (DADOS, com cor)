@@ -12,21 +12,28 @@
        document.write("<br>")
        document.write("<br>")
 
-       function validar()
+       function SENAI()
        {
-        document.write("COCLUÍDO!")
-        return false;
-       }
+            $nome = this.form1.fNome.value;
+            $idade = this.form1.fIdade.value;
+            $cidade = this.form1.fCidade.value;
+            $estado = this.form1.fEstado.value;
+            $sexo = this.form1.fSexo.value;
+            document.write($nome + " concluído! Você tem " + $idade , " anos.") 
+            document.write("<br>")
+            document.write("Mora em " + $cidade + ", localizado no Estado de " + $estado + " e seu gênero é " + $sexo)
+            return false;
+       }    
    </script>
 </head>
 
 <body bgcolor="#FFFFF0">
-    <form name="form1" action="Pag2.php" method="Post" onsubmit="return validar()">
+    <form name="form1" action="Pag2.php" method="Post" onsubmit="return SENAI()">
         NOME: <input type="text" name="fNome"> <br>
         IDADE: <input type="text" name="fIdade"> <br>
         SEXO:
-        Masculino <input type="radio" name="fSexo" value="masc">
-        Feminino <input type="radio" name="fSexo" value="fem">
+        Masculino <input type="radio" name="fSexo" value="masculino">
+        Feminino <input type="radio" name="fSexo" value="feminino">
         <br>
         CIDADE: <input type="text" name="fCidade"
                                    size="20" maxlength="20"> <br> 

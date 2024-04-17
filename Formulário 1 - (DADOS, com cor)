@@ -11,11 +11,17 @@
        document.write("<tr bgcolor='#FFF0F5' align='center'>")
        document.write("<br>")
        document.write("<br>")
+
+       function validar()
+       {
+        document.write("COCLUÍDO!")
+        returnfalse
+       }
    </script>
 </head>
 
 <body bgcolor="#FFFFF0">
-    <form name="form1" action="Pag2.php" method="Post">
+    <form name="form1" action="Pag2.php" method="Post" onsubmit="return validar()">
         NOME: <input type="text" name="fNome"> <br>
         IDADE: <input type="text" name="fIdade"> <br>
         SEXO:

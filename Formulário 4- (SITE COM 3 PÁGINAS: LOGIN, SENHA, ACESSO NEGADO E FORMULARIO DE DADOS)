@@ -25,7 +25,7 @@
             var qtdCaracteres_senha = senha.length;
 
             if (login === "senai" && senha === "sumare") {
-                alert("Usuário validado com sucesso");
+                alert("Usuário validado com sucesso. Bem vindo! Clique em 'OK' e preencha o formulário");
                 document.write("BEM-VINDO")
                 window.location.href = "formulario.html"
 

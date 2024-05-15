@@ -1,0 +1,190 @@
+PÁGINA 1 - APP INICIAL
+------------------------------------------------
+<htm1>
+    <h1 style= "border:1px solid">
+    <center>Pedestre Digital</center>
+    </h1>
+    
+<body>
+    <center>
+    <img src="app.jpg" width="10%"><br><br>
+    <a href="index2.html">Ir para o APP</a>
+    </center>
+
+    <script>
+
+    </script> 
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PÁGINA 2 - LOGIN (acesso válidado ou negado) LOGIN: senai // SENHA: sumare
+------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 1</title>
+    <style>
+        .borda {
+            border: 5px solid black;
+            padding: 30px; 
+            width: 200px; 
+            margin: 0 auto; 
+        }
+            
+    
+    </style>
+    <script>
+        function Validar() {
+            var login = document.FORM1.fLogin.value;
+            var senha = document.FORM1.fSenha.value;
+            var qtdCaracteres_login = login.length;
+            var qtdCaracteres_senha = senha.length;
+
+            if (login === "senai" && senha === "sumare") {
+                alert("Usuário validado com sucesso. Bem vindo! Clique em 'OK' para continuar com o app.");
+                document.write("BEM-VINDO")
+                window.location.href = "index3.html"
+
+            }
+            else {
+                alert("LOGIN OU SENHA INVÁLIDO");
+                document.write("Usuário ou senha inválido. Tente novamente")
+                window.location.href = "index.html"
+                return false;
+
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <center>
+        <img src="SENAI-SP.jpg" width="10%"><br><br>
+    </center>
+    <div class="borda">
+    <form name="FORM1" action=" " method="Post" onsubmit="return Validar()">
+        LOGIN:<input type="text" name="fLogin"><br>
+        SENHA:<input type="password" name="fSenha"><br>
+        <input type="submit" value="Gravar">
+        <input type="reset" value="Limpar">
+    </form>
+</div>
+</body>
+
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PÁGINA 3 - SEMÁFORO
+----------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-image: url('corposema.jpg');" >
+    <a  href="index4.html">
+     <img src="png2.png" width="100%" >
+    </a>
+ </body
+
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PÁGINA 4 - (AGUARDE)
+----------------------------------------------------
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-image: url('preto.png');" >
+   <a  href="index5.html">
+    <img src="png2.png" width="100%" >
+   </a>
+   <font color="white" size="7">
+    
+        AGUARDE!
+    
+   </font>
+   <a href="index5.html">ir para próxima página</a>
+   <script>
+   </script>
+   
+</body>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PÁGINA 5 - AVALIAR E VOLTAR PARA O INICIO (final)
+-------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avaliação com 5 Estrelas</title>
+<body>
+    <center>
+    <img src="bordared.jpg" width="100%" height="5%">
+</body>
+
+    <img src="bordawrite.jpg" width="100%" height="5%">
+    </center>
+    <body bgcolor='	#F5F5F5'>
+    
+<style>
+    .rating {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+        text-align: center;
+    }
+    .rating input {
+        display: none;
+    }
+    .rating label {
+        display: inline-block;
+        padding: 5px;
+        font-size: 30px;
+        color: #ccc;
+        cursor: pointer;
+    }
+    .rating label:hover,
+    .rating label:hover ~ label,
+    .rating input:checked ~ label {
+        color: #f7d25b;
+    }
+</style>
+</head>
+
+<h2><center>Avalie para melhora do desempenho do app:</center></h2>
+<div class="rating">
+    <input type="radio" id="star5" name="rating" value="5">
+    <label for="star5">☆</label>
+    <input type="radio" id="star4" name="rating" value="4">
+    <label for="star4">☆</label>
+    <input type="radio" id="star3" name="rating" value="3">
+    <label for="star3">☆</label>
+    <input type="radio" id="star2" name="rating" value="2">
+    <label for="star2">☆</label>
+    <input type="radio" id="star1" name="rating" value="1">
+    <label for="star1">☆</label>
+</div>
+<a href="index.html"><center>Voltar para página inicial</center></a>
+<script>
+    const stars = document.querySelectorAll('.rating input');
+
+    stars.forEach(star => star.addEventListener('click', function() {
+        const ratedStars = this.value;
+        alert("Você avaliou com " + ratedStars + " estrelas.");
+        // Aqui você pode enviar a avaliação para o servidor ou realizar outra ação com a avaliação.
+    }));
+</script>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+PÁGINA 1- PÁGINA INICIAL
+------------------------------------------------
+<htm1>
+    
+    <body bgcolor='#FFFF00'>
+   </body>
+    <h1 style= "border:1px solid">
+    <center> SEMANA DE PREVENÇÃO INTERNA DE ACIDENTES DE TRABALHO</center>
+    </h1>
+    
+<body>
+    <center>
+    <img src="SIPAT.png" width="60%"><br><br>
+    <a href="index2.html">SAIBA MAIS</a>
+    </center>
+
+    <script>
+
+    </script> 
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PÁGINA 2 - 
+------------------------------------------------
+<htm1>
+    
+<body bgcolor='#F0FFF0'></body>
+<h1 style= "border:1px solid">
+<center> SEMANA DE PREVENÇÃO INTERNA DE ACIDENTES DE TRABALHO</center>
+</h1>
+<br>
+<center>
+<br>
+<script>
+    function main()
+    {
+    window.location.href = "index3.html";
+    }
+    function main1()
+    {
+    window.location.href = "index4.html";
+    }
+       
+    </script>
+<img src="sipat2.png" width="18%"><br><br>
+<button onclick="main()">O QUE É SIPAT</button>
+<button onclick="main1()">PREVENÇÕES INTERNAS</button>
+<br><br><br><br>
+</body>
+<a href="index.html"> <center>Voltar para a página inicial</center></a>
+
+</body>
+
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PÁGINA 3 - 
+------------------------------------------------
+<htm1>
+    
+    <body bgcolor='#F0FFF0'>
+   </body>
+    <h1 style= "border:1px solid">
+    <center> SEMANA DE PREVENÇÃO INTERNA DE ACIDENTES DE TRABALHO</center>
+    </h1>
+    <br>
+    <h3> O QUE É SIPAT </h3>
+    A Semana Interna de Prevenção de Acidentes no Trabalho (SIPAT) é um evento obrigatório nas empresas brasileiras, instituído pela legislação trabalhista. A SIPAT tem como objetivo promover a conscientização dos funcionários sobre a segurança e saúde no ambiente de trabalho.
+    <br><br>
+    Durante a SIPAT, são realizadas palestras, treinamentos, dinâmicas e outras atividades voltadas para a prevenção de acidentes, promoção da saúde e qualidade de vida no trabalho. Temas como uso correto de equipamentos de proteção, prevenção de doenças ocupacionais, primeiros socorros, ergonomia e segurança no ambiente de trabalho são abordados.
+    <br><br>
+    A importância da SIPAT reside no fato de que ela contribui para a redução de acidentes e doenças relacionadas ao trabalho, promove a conscientização dos colaboradores sobre práticas seguras, melhora o clima organizacional e demonstra o comprometimento da empresa com a segurança e bem-estar de seus funcionários.
+    <br><br>
+    Além disso, a SIPAT é uma oportunidade para a integração entre os colaboradores e a empresa, fortalecendo a cultura de segurança e prevenção. Ao promover uma semana dedicada à conscientização e educação sobre segurança no trabalho, as empresas demonstram seu compromisso com a saúde e a integridade de seus funcionários.
+    <body>
+    <center>
+    <br><br><br><br><br><br><br><br><br>
+    <a href="index2.html">Voltar para a página anterior</a>
+    </center>
+
+    <script>
+
+    </script> 
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PÁGINA 4 - 
+------------------------------------------------
+<htm1>
+    
+    <body bgcolor='#F0FFF0'>
+    </body>
+    <h1 style= "border:1px solid">
+    <center> SEMANA DE PREVENÇÃO INTERNA DE ACIDENTES DE TRABALHO</center>
+    </h1>
+    <br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <font color="red" size="7">
+           Dicas de prevenção interna
+        </font>
+        <br> <br>
+        <table border="1" width="600">
+            <tr bgcolor="#CDCDC1" align="center">
+            <td width="350"><B>Exemplos</B></td>
+            </tr>
+            <tr>
+            <td>Palestras educativas sobre segurança no trabalho, abordando temas como prevenção de acidentes, uso correto de equipamentos de proteção individual (EPIs), ergonomia, entre outros.</td>
+            </tr>
+            <td>Treinamentos práticos de primeiros socorros e procedimentos de emergência.</td>
+            </tr>
+            <td>Demonstração de boas práticas de segurança no uso de máquinas e equipamentos.</td>
+            </tr>
+            <td>Atividades interativas, como simulações de situações de risco e como lidar com elas.</td>
+            </tr>
+            <td>Distribuição de materiais educativos, como cartilhas, panfletos e vídeos informativos.</td>
+            </tr>
+            <td>Incentivo à participação dos funcionários em programas de ginástica laboral e alongamentos para prevenir lesões musculoesqueléticas.</td>
+            </tr>
+            <td>Realização de exames médicos periódicos para identificar possíveis problemas de saúde relacionados ao trabalho.</td>
+            </tr>
+            <td>Estímulo à comunicação aberta entre os funcionários e a gestão para relatar condições inseguras e sugerir melhorias.</td>
+            </tr>
+            <td>Promoção de um ambiente de trabalho saudável e livre de assédio moral ou sexual.</td>
+            <tr>
+            <td>Reconhecimento e premiação dos funcionários que contribuem ativamente para a segurança no trabalho.</td>
+        </table>
+        <center>
+            <br><br>
+            <a href="index2.html">Voltar para a página anterior</a>
+        </center>
+</body>
+
+</html>

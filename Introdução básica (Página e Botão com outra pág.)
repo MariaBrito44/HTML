@@ -10,6 +10,10 @@ hello world!
 function main(){
 window.alert("pagina criada com sucesso")
 }
+
+function main(){
+    window.location.href = "index3.html";
+}
 </script>
 
 </htm1>

@@ -1,0 +1,109 @@
+PÁGINA 1
+--------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <body bgcolor='#98FB98'></body>
+    <h1 style= "border:1px solid">
+    <center> SEMANA DO MEIO AMBIENTE</center>
+    </h1>
+    <br>
+    <center>
+    <br>
+    <script>
+        function main()
+        {
+        window.location.href = "index2.html";
+        }
+        function main1()
+        {
+        window.location.href = "index3.html";
+        }
+           
+        </script>
+    <img src="img1.png" width="30%"><br><br>
+    <button onclick="main()">O QUE É A SEMANA</button>
+    <button onclick="main1()">IMPORTÂNCIA</button>
+    <br><br><br><br>
+    </body>
+    <a href="index.html"> <center>Voltar para a página inicial</center></a>
+    
+    </body>
+    
+    </html>
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    PÁGINA 2
+    --------------------------------------------------------------------------
+    <htm1>
+    
+    <body bgcolor='#98FB98'>
+    <br><br>
+   </body>
+    <h1 style= "border:1px solid">
+    <center> SEMANA DO MEIO AMBIENTE</center>
+    </h1>
+    <br>
+    <h3> O QUE É A SEMANA </h3>
+    A Semana do Meio Ambiente é um período dedicado à conscientização e promoção de atividades relacionadas à preservação e proteção do meio ambiente. 
+    <br><br>
+    Este evento ocorre anualmente e está geralmente alinhado com o Dia Mundial do Meio Ambiente, celebrado em 5 de junho. A Semana do Meio Ambiente busca engajar a sociedade, governos, empresas e outras instituições na discussão e implementação de práticas sustentáveis.
+    <br><br>
+    Contexto Histórico:
+    A Semana do Meio Ambiente foi instituída no Brasil pelo Decreto nº 86.028, de 27 de maio de 1981, em resposta ao crescente reconhecimento da importância da preservação ambiental. 
+    <br><br>
+    Esta iniciativa se alinha com o Dia Mundial do Meio Ambiente, estabelecido pela Organização das Nações Unidas (ONU) em 1972, durante a Conferência de Estocolmo sobre o Ambiente Humano, que marcou o início da conscientização global sobre questões ambientais.
+    <br><br>
+    Em resumo, a Semana do Meio Ambiente é um momento crucial para refletir sobre o impacto humano no planeta e promover ações que visem à preservação dos recursos naturais para as futuras gerações.    
+    <center>
+    <br><br><br><br><br><br><br><br><br>
+    <a href="index.html">Voltar para a página anterior</a>
+    </center>
+   
+    <script>
+
+    </script> 
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PÁGINA 3
+--------------------------------------------------------------------------
+<htm1>
+    
+    <body bgcolor='#98FB98'>
+    </body>
+    <h1 style= "border:1px solid">
+    <center> SEMANA DO MEIO AMBIENTE </center>
+    </h1>
+    <br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <br>
+        <table border="1" width="600">
+            <tr bgcolor="#CDCDC1" align="center">
+            <td width="350"><B>IMPORTÂNCIA</B></td>
+            </tr>
+            <tr>
+            <td>Engajamento da Comunidade: A semana cria um espaço para que a comunidade se envolva ativamente em ações ambientais, fortalecendo o senso de responsabilidade coletiva.
+            </td>
+            </tr>
+            <td>Educação e Informação: Através de eventos e atividades, a população é informada sobre os desafios ambientais e como cada pessoa pode contribuir para um mundo mais sustentável.</td>
+            </tr>
+            <td>Desenvolvimento Sustentável: Promove a integração de práticas sustentáveis na rotina das pessoas e nas políticas empresariais e governamentais, incentivando um desenvolvimento que respeite os limites do planeta.</td>
+            </tr>
+        </table>
+        <center>
+            <img src="sustentabilidade.png" width="30%"><br><br>
+            <a href="index2.html">Voltar para a página anterior</a>
+        </center>
+<a href="index.html"> <center>Voltar para a página inicial</center></a>
+
+</body>
+
+</html>

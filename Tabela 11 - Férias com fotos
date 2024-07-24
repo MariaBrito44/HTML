@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="E0FFFF">
+    <center>
+        <font color="blue" size="7">
+            FÉRIAS
+        </font>
+        <br> <br>
+        <table border="1" width="600">
+            <tr bgcolor="#F0F8FF" align="center">
+                <td width=" " align="center"><B>FOTO</B></td>
+            </tr>
+            <tr>
+                <td><center><img src="../dormindo.jpeg" width='70%'></td>
+            </tr>
+            <tr>
+                <td><center><img src="../academia.jpg" width='70%'></td>
+            </tr>
+            <tr>
+                <td><center><img src="../assistindo.png" width='70%'></td>
+            </tr>
+            <tr>
+                <td><center><img src="../limpando.webp" width='70%'></td>
+            </tr>
+            <tr>
+                <td><center><img src="../carro.jpg" width='70%'></td>
+            </tr>
+            <tr>
+                <td><center><img src="../aparecida.avif" width='70%'></td>
+            </tr>
+    </center>
+    </table>
+</body>
+
+</html>

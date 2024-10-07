@@ -1,0 +1,78 @@
+1 - INDEX
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfólio da Maria</title>
+</head>
+<body>
+    <header>
+        <h1>Portfólio profissional Maria Engenheira Automotiva</h1>
+        <nav>
+            <ul>
+                <li><a href ='#sobre'></a></li>
+                <li><a href ='#projeto'></a></li>
+                <li><a href ='#sobre'></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <img src="nome da imagem" alt="Minha foto" class="foto-sobre">
+        <p>Meu nome é Maria Eduarda, sou Engenheira Automotiva e apaixonada por carros,
+            uma paixão que tenho desde nova e que cresce a cada dia mais. Trabalho nesta
+            área a 5 anos.
+            Minha carreira alcançou reconhecimento quando fiz um projeto para a Pirelle, 
+            a maior empresa de pneus de automovéis do mundo.
+        </p>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div>
+            <article>
+                <h3>Projeto 1</h3>
+                <p>Nesse projeto, desenvolvi formas selecionativas de jovens acima de 15 anos, 
+                    de todos genêros, que compartilham a mesma paixão, e sonham com a oportunidade
+                     de entrar na Pirelle mas não sabem como fazer isso acontecer, baseados em sua
+                     forma de vida real.</p>
+                <img src="nome da imagem" alt="Imagem do projeto" class="Foto-do-projeto">
+            </article>
+
+            <article>
+                <h3>Projeto 2</h3>
+                <p>Este projeto representa a "alavancagem" da minha carreira. Ele me abriu
+                    portas e me trouxe reconhecimento.</p>
+                    <img src="nome da imagem" alt="Segunda Imagem" class="Foto-do-projeto">
+            </article>
+
+            <article>
+                <h3>Projeto 3</h3>
+                <p>Esse projeto foi algo muito desafiador de se criar, pois envolveu
+                    bastante requisitos. Desenvolveu muito meu potencial profissional.
+                </p>
+                <img src="nome da imagem" alt="Terceira Imagem" class="Foto-do-projeto">
+            </article>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+            <label for="email">Email:</label>
+            <input type="text" name="email" required>
+        </form>
+    </section>
+ <footer>
+    <p>Todos os direitos reservados. 2024 - Portfólio de Maria</p> 
+ </footer>   
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2- STYLES.CSS
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
